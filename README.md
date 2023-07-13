@@ -73,4 +73,4 @@
 - Our model with significant features has approximately 70% accuracy when introduced to a new dataset.
 
 ## Conclusion:
- The model has 70% accuracy and therefore it suggests that the model has a reasonably good ability to classify the different classes. Thus, the machine can be recommended to health systems, especially in developing nations to adopt the use during prenatal checks (specifically prior or during labour at 3rd trimester) to reduce maternal and fetal mortality.
+ The model exhibits a 70% accuracy rate, indicating its proficient ability to classify various classes. As a result, it is highly recommended for adoption by health systems, especially in developing nations, for use during prenatal checks, particularly prior to or during labor in the third trimester. This implementation can effectively aid in reducing newborn and maternal mortality rates.
