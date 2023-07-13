@@ -55,7 +55,22 @@
 ##### Predictions 
 1. Model evaluation done after balancing data to identify the precision of the model
 
-## Results
+## Results:
+- Significant features that affect the fetal health are:
+    - Baseline value
+    - Uterine contractions 
+    - Severe Decelerations
+    - Prolongued Decelerations
+    - Abnormal short term variability 
+    - Percentage of time with abnormal long term variability
+    (identified using the p-value of OLS Regression model)
 
-## Conclusion
- The model has 70% accuracy and therefore it suggests that the model has a reasonably good ability to classify the different classes. Thus, the machine can be recommended to health systems, especially in developing nations to adopt the use during prenatal checks (specifically prior or during labour at 3rd trimester) to reduce maternal and fetal mortality
+##### T-test results:
+- Since the p-value is >0.05 when comparing severe decelerations of normal and suspect, we do not reject the null hypothesis that the averages are equal. Therefore, we would conclude that there is not enough evidence to conclude that there is a significant difference between the averages of severe decelerations between normal and suspect.
+- For all other comparisons, we reject the null hypothesis that the averages are equal. Therefore, we would conclude that the averages of all the other comparisons done are significantly different.
+
+##### Model Evaluation results:
+- Our model with significant features has approximately 70% accuracy when introduced to a new dataset.
+
+## Conclusion:
+ The model has 70% accuracy and therefore it suggests that the model has a reasonably good ability to classify the different classes. Thus, the machine can be recommended to health systems, especially in developing nations to adopt the use during prenatal checks (specifically prior or during labour at 3rd trimester) to reduce maternal and fetal mortality.
