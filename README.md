@@ -43,7 +43,7 @@
 1. Pairplot created to further analyze significant features
 2. Created separate datasets according to fetal health category
 3. Different Types of plots were created in python and Tablaeu (Graphs and Dashboard) to see the relationship between fetal health versus each feature
-4. T-tests done for each feature to identify if there's a significant difference in averages of them in each fetal health category
+4. T-tests done for each feature to identify if there are any significant differences between their averages and fetal health.
 
 ##### OLS Model (2)
 1. OLS model generated for significant features
