@@ -19,11 +19,11 @@
 2. To analyze the precision of CTG model algorithms in correctly classifying instances.
 3. Based on the model evaluation result, propose the global scale-up of CTG usage, with a focus on regions burdened by high newborn and maternal mortality.
 
-### Approach
+### Approach:
 
 ![**Alt text**](classification_approach.png)
 
-#### Steps
+#### Steps:
 
 ##### Preprocess/ Clean data studying dataframe
 1. Cleaned data by dropping null values. (Decided no further cleaning needed since the dataset appeared clean)
@@ -55,3 +55,7 @@
 ##### Predictions 
 1. Model evaluation done after balancing data to identify the precision of the model
 
+## Results
+
+## Conclusion
+ The model has 70% accuracy and therefore it suggests that the model has a reasonably good ability to classify the different classes. Thus, the machine can be recommended to health systems, especially in developing nations to adopt the use during prenatal checks (specifically prior or during labour at 3rd trimester) to reduce maternal and fetal mortality
