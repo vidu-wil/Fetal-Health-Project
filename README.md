@@ -2,7 +2,7 @@
 
 ## Motivation:
 
-### The problem statement:
+### Problem statement:
 
 - Under-five mortality is greatly influenced by the death of children in the first month of their life. Perinatal mortality is largely caused by intrapartum complications. However, Cardiotocograms (CTGs), which are simple and affordable, can serve as a monitoring tool to assess fetal health and identify high-risk women during labor.
 
@@ -18,3 +18,7 @@
 1. To identify the most significant features for detecting high-risk fetal health conditions.
 2. To analyze the precision of CTG model algorithms in correctly classifying instances.
 3. Based on the model evaluation result, propose the global scale-up of CTG usage, with a focus on regions burdened by high newborn and maternal mortality.
+
+### Approach
+
+![**Alt text**](classification_approach.png)
