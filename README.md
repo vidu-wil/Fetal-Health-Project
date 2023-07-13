@@ -22,3 +22,36 @@
 ### Approach
 
 ![**Alt text**](classification_approach.png)
+
+#### Steps
+
+##### Preprocess/ Clean data studying dataframe
+1. Cleaned data by dropping null values. (Decided no further cleaning needed since the dataset appeared clean)
+2. Studied the columns and what they represent as well as how many data are in each category of fetal health
+
+##### EDA (1)
+1. Created pairplot with all the features of the dataset to have a general idea about the dataset
+2. Correlation heatmap was created using all the feature to recognize any correlation
+
+##### OLS Model (1)
+1. OLS Regression model was done to identify the significant features in recognizing patterns
+
+##### Feature Selection
+1. New dataframe created with significant features
+
+##### EDA (2)
+1. Pairplot created to further analyze significant features
+2. Created separate datasets according to fetal health category
+3. Different Types of plots were created in python and Tablaeu (Graphs and Dashboard) to see the relationship between fetal health versus each feature
+4. T-tests done for each feature to identify if there's a significant difference in averages of them in each fetal health category
+
+##### OLS Model (2)
+1. OLS model generated for significant features
+
+##### EDA (3)
+1. Created correlation heatmap for significant features to identify the correlation with each other
+2. Scatterplots were generated for features with high correlation to analyze them further
+
+##### Predictions 
+1. Model evaluation done after balancing data to identify the precision of the model
+
