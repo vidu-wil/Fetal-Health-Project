@@ -21,7 +21,7 @@
 
 ### Approach:
 
-![**Alt text**](classification_approach.png)
+![**Alt text**](classification_approach.jpg)
 
 #### Steps:
 
